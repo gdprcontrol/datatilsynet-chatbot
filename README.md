@@ -19,6 +19,11 @@ Prelude: Please make sure you have already downloaded node on your system and th
 - Both GPT-3.5, GPT-4 are available. GPT-4 is recommended for better answer, while with slower response.
 - Open source chromadb as vector database, you don't need to send your data to a cloud commercial vectordb.
 
+## Prerequisites
+- Node.JS 18+
+- Git
+- Docker to host Chroma DB. Docker Desktop on Windows.
+
 ## Deployment
 
 1. Clone the repo or download the ZIP
@@ -48,7 +53,7 @@ After installation, you should now see a `node_modules` folder.
 COLLECTION_NAME=datatilsynvedtak
 ```
 
-Note, the collection name must be an under 63 characters.
+Note, the collection name must be under 63 characters.
 
 - Visit [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to retrieve API keys and insert into your `.env` file.
 
@@ -72,7 +77,7 @@ http://localhost:8000
 
 **This repo can load multiple PDF files, and other files such as docx, pptx, txt, csv, html**
 
-1. Inside `docs` folder, add your pdf files or folders that contain pdf/docx/pptx files. There is an example legal case file in the docs folder already.
+1. Inside `docs` folder, add your pdf files or folders that contain pdf/docx/pptx files. 
 
 2. Run the script `npm run ingest` to 'ingest' and embed your docs. If you run into errors troubleshoot below.
 
