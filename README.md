@@ -1,4 +1,4 @@
-# GPT-4 & LangChain - ChatGPT Chatbot over alle datatilsynets vedtak
+ChatGPT Chatbot over alle datatilsynets vedtak
 
 Use the new GPT-4 api to build a chatGPT chatbot for multiple Large PDF files, docx, pptx, html, txt, csv.
 
