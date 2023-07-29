@@ -59,6 +59,10 @@ git clone git@github.com:chroma-core/chroma.git
 cd chroma
 docker-compose up -d --build
 ```
+Chroma Dashboard
+```
+http://localhost:8000
+```
 
 4. In the .env file, replace the `COLLECTION_NAME` with a `namespace` where you'd like to store your embeddings on Chroma when you run `npm run ingest`. This namespace will later be used for queries and retrieval.
 
